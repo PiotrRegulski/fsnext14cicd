@@ -6,10 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint src --ext ts,tsx,js,jsx --report-unused-disable-diectives --max-warning 0",
+    "lint": "eslint src --ext ts,tsx,js,jsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint src --ext ts,tsx,js,jsx --fix",
-    "fromat": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,html}'",
-    "prepare": "husky"
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,html}'",
+    "prepare": "husky || true"
   },
   "dependencies": {
     "next": "14.1.3",
