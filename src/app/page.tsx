@@ -1,3 +1,11 @@
+
+//Ważne
+//zależnosci poczatkowe do zainstalowania npm install --save-dev husky lint-staged,--save-dev prettier eslint-config-prettier , npm install --save-dev eslint-plugin-prettier
+// "lint": "next lint src --ext ts,tsx,js,jsx --report-unused-disable-diectives --max-warning 0",
+// "lint:fix":"eslint src --ext ts,tsx,js,jsx --fix",
+// "fromat":"prettier --write 'src/**/*.{js,jsx,ts,tsx,css,html}'"
+
+
 import Image from "next/image";
 
 export default function Home() {
