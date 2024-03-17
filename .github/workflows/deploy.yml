@@ -1,9 +1,9 @@
-name: Build and Deploy to Heroku
+name: Build and Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main:
+      - main # Replace with your main development branch
 
 jobs:
   build-and-deploy:
@@ -32,5 +32,5 @@ jobs:
         with:
           heroku_email: ${{ secrets.HEROKU_EMAIL }}
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-          heroku_app_name: 'next-pipelinetest'
-        # build_dir: 'your-build-directory' # Change this to your build directory if different from the root
+          heroku_app_name: 'nextjs14-demo'
+          # build_dir: 'your-build-directory' # Change this to your build directory if different from the root
